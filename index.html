@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exclusão de Conta - Ativa Trabalho</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    :root {
+      --azul-cv: #003DA5;
+      --vermelho-cv: #EF3340;
+      --amarelo-cv: #FFD100;
+      --branco: #FFFFFF;
+      --cinza-claro: #f8f9fa;
+      --cinza-escuro: #333;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, var(--azul-cv), #001f5f);
+      color: var(--branco);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      background: var(--azul-cv);
+      width: 100%;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: var(--amarelo-cv);
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+    .container {
+      max-width: 700px;
+      background: rgba(255,255,255,0.95);
+      color: var(--cinza-escuro);
+      border-radius: 12px;
+      padding: 2.5rem;
+      margin: 2rem 1rem;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    }
+    h2 {
+      color: var(--vermelho-cv);
+      border-bottom: 3px solid var(--amarelo-cv);
+      padding-bottom: 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+    p, li {
+      line-height: 1.7;
+      font-size: 1.1rem;
+    }
+    .steps {
+      background: var(--cinza-claro);
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin: 1.5rem 0;
+    }
+    .email-btn {
+      display: inline-block;
+      background: var(--vermelho-cv);
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      margin: 1.5rem 0;
+      transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(239,51,64,0.4);
+    }
+    .email-btn:hover {
+      background: #d32f2f;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(239,51,64,0.5);
+    }
+    .email-btn i {
+      margin-right: 10px;
+    }
+    .note {
+      background: #fff3cd;
+      color: #856404;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+    footer {
+      margin-top: auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 1.8rem; }
+      header h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ativa Trabalho</h1>
+    <p style="margin: 0.5rem 0 0; font-size: 1.1rem; color: #e0e0ff;">Exclusão de Conta e Dados Pessoais</p>
+  </header>
+
+  <div class="container">
+    <h2>Como solicitar a remoção da sua conta</h2>
+    
+    <p>Se deseja eliminar permanentemente a sua conta no aplicativo <strong>Ativa Trabalho</strong> e todos os dados associados (nome, email, telefone, perfil profissional, etc.), siga o processo abaixo. Garantimos que processamos o pedido em conformidade com a Lei de Proteção de Dados Pessoais de Cabo Verde.</p>
+    
+    <div class="steps">
+      <ol>
+        <li>Envie um email para o endereço abaixo com o assunto exato:<br>
+          <strong>"Solicitação de Exclusão de Conta - Ativa Trabalho"</strong></li>
+        <li>No corpo do email, inclua obrigatoriamente:
+          <ul>
+            <li>O <strong>email</strong> usado para criar a conta no app</li>
+            <li>O <strong>nome completo</strong> registado (para confirmação)</li>
+            <li>Uma frase confirmando que entende que a exclusão é <strong>permanente e irreversível</strong></li>
+          </ul>
+        </li>
+        <li>Envie o email. Responderemos em até 30 dias confirmando a eliminação.</li>
+      </ol>
+    </div>
+
+    <a href="mailto:ivanrocha.rocha@gmail.com?subject=Solicitação de Exclusão de Conta - Ativa Trabalho" class="email-btn">
+      <i class="fas fa-envelope"></i> Enviar pedido por email agora
+    </a>
+
+   
+    <div class="note">
+      <strong>Nota importante:</strong> Após a exclusão, não será possível recuperar a conta ou os dados. Se tiver dúvidas, responda ao email de confirmação que enviaremos.
+    </div>
+  </div>
+
+  <footer>
+    Desenvolvido por Ivan | Praia, Santiago, Cabo Verde 🇨🇻<br>
+    © 2026 Ativa Trabalho – Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
