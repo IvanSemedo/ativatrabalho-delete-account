@@ -6,7 +6,7 @@
   <title>Tornar-se Empreendedor - Ativa Trabalho</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <style>
-    :root {
+  /*  :root {
       --verde-principal: rgb(14, 132, 67);
       --verde-escuro: rgb(10, 100, 50);
       --vermelho-destaque: rgb(220, 53, 69);
@@ -47,6 +47,51 @@
       margin: 2.5rem 1rem;
       box-shadow: 0 10px 35px rgba(0,0,0,0.28);
     }
+
+    */
+
+      :root {
+      --verde-principal: rgb(14, 132, 67);
+      --verde-escuro: rgb(10, 100, 50);
+      --vermelho-destaque: rgb(220, 53, 69);
+      --amarelo-acao: rgb(255, 193, 7);
+      --branco: #FFFFFF;
+      --cinza-claro: #f8f9fa;
+      --cinza-escuro: #2c2c2c;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, var(--verde-principal), var(--verde-escuro));
+      color: var(--branco);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      background: var(--verde-principal);
+      width: 100%;
+      padding: 2.2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      color: var(--amarelo-acao);
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    }
+    .container {
+      max-width: 720px;
+      background: rgba(255,255,255,0.96);
+      color: var(--cinza-escuro);
+      border-radius: 14px;
+      padding: 2.8rem;
+      margin: 2.5rem 1rem;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.28);
+    }
+    
     h2 {
       color: var(--vermelho-destaque);
       border-bottom: 4px solid var(--amarelo-acao);
